@@ -1,0 +1,12 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "noEmit": false,
+    "declaration": false,
+    "emitDeclarationOnly": true,
+    "rootDir": "..",
+    "outDir": "dist/types"
+  },
+  "include": [],
+  "files": ["src/live.ts", "src/service.ts", "src/server.ts"]
+}
